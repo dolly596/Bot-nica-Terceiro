@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SESI BOTÂNICA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>SESI BOTÂNICA</h1>
+        <p>Explore as maravilhas das árvores do nosso colégio</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#arvores">Árvores</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+        <div class="menu-gif">
+            <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" alt="Árvores animadas">
+        </div>
+    </nav>
+    <main>
+        <section id="home" class="intro">
+            <h2>Bem-vindo ao SESI BOTÂNICA</h2>
+            <p>Conheça as árvores do nosso colégio e aprenda mais sobre a biodiversidade local.</p>
+        </section>
+        <section id="arvores" class="tree-list">
+            <h2>Árvores do Colégio</h2>
+            <input type="text" id="search" placeholder="Pesquisar árvore..." onkeyup="searchTree()">
+            <div id="tree-container"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 SESI BOTÂNICA. Todos os direitos reservados.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
